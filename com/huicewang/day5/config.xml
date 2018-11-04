@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+    <登录页>
+        <用户名 type="name" value="username"/>
+        <密码 type="name" value="password"/>
+        <登录按钮 type="name" value="submit"/>
+    </登录页>
+    <首页>
+        <登录按钮 type="xpath" value="//font[@id='ECS_MEMBERZONE']/a[1]"/>
+        <分类 type="id" value="category"/>
+        <关键词 type="id" value="keyword"/>
+        <搜索按钮 type="name" value="imageField"/>
+        <登录标示 type="class name" value="f4_b"/>
+    </首页>
+
+    <搜索结果页>
+        <商品 type="xpath" value="//div[@class='clearfix goodsBox']/div[@class='goodsItem']"/>
+        <商品价格 type="xpath" value="//form[@id='compareForm']//font[@class='shop_s']"/>
+    </搜索结果页>
+</element>
